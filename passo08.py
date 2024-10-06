@@ -7,7 +7,7 @@ imagem = cv2.imread('imagens/leao.jpg')
 processamento = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
 
 # Salvar a imagem que foi processada no arquivo SalvaImagem!
-cv2.imwrite('imagens/leao.jpg', processamento)
+cv2.imwrite('SalvaImagem/leao.jpg', processamento)
 
 # exibir mensagem de sucesso
 print("Imagem salva com sucesso!")
