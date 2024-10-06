@@ -32,7 +32,7 @@ def teste_De_Imagens(test_directory, output_directory):
 # Arquivo de imagens onde será feito os testes
 ArquivoTeste = 'imagens'  
 # Diretório onde as imagens processadas serão salvas
-ArquivoSalvo = 'iamgens'
+ArquivoSalvo = 'teste Final'
 
 # Executar o teste das imagens
 teste_De_Imagens(ArquivoTeste, ArquivoSalvo)
